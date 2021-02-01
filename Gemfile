@@ -9,9 +9,9 @@ gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'guard'
   gem 'guard-rspec', require: false
+  gem 'pry-rails'
   gem 'rspec-rails', '~> 4.0.2'
 end
 
