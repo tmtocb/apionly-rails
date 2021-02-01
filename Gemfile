@@ -9,6 +9,8 @@ gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 
 group :development, :test do
+  gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'guard'
   gem 'guard-rspec', require: false
   gem 'pry-rails'
